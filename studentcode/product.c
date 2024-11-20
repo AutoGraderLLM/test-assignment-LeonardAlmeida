@@ -13,7 +13,7 @@ int main(int argc, char* argv[]) {
     return 1;
   }
   int numbers[11];
-  int sum = 0;
+  int sum = 0
   int product = 1;
   
   // Reading numbers from the file
