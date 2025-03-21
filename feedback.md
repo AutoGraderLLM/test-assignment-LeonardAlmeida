@@ -1,24 +1,26 @@
-# Feedback for Student
+# Feedback for introllm-LeonardAlmeida
 
-Based on the Autograder Output and Professor Instructions, here are some guided questions for the student:
+Here are some guided questions based on the provided student code and professor instructions:
 
-1. What is the error message displayed in the Autograder Output for the `i2b.c` file? How does it relate to the code?
+**i2b.c:**
 
-2. Identify the line numbers where the errors occur in the `i2b.c` file. What kind of errors are they (syntax, logical, etc.)?
+1. What is the issue with the while loop condition in the given code? How can it be fixed?
 
-3. In the `i2b.c` file, what is the issue with the variable `binRep`? How can it be fixed?
+2. The variable `binRep` is declared but not used anywhere in the code. What is its purpose, and how can it be utilized effectively?
 
-4. The Autograder Output also mentions that the binary representation test fails for negative numbers. Explain why this might be happening.
+3. In the for loop that prints the binary representation, the starting index is set to `N - 1`, which is incorrect according to the problem statement. How should the starting index be set instead?
 
-5. Based on Professor Instructions, how should the `i2b.c` file be modified to accept a single command line argument and convert it into its corresponding binary representation?
+4. The code does not handle negative numbers correctly. What changes need to be made to accommodate both positive and negative integers?
 
-6. What are the conditions specified for the binary representation in Professor Instructions? How can these conditions be implemented in the code?
+5. The expected output for a random input number (-28117) does not match the actual output. What might be the reason, and how can it be corrected?
 
-7. Create a copy of `i2b.c` called `i2h.c`. Modify `i2h.c` to satisfy the specifications given in Professor Instructions for converting an integer into its corresponding machine's hexadecimal representation.
+**i2h.c:**
 
-8. In `i2h.c`, what are the conditions specified for the hexadecimal representation? How can these conditions be implemented in the code?
+1. The code uses `atoi` function to convert the command line argument to an integer. However, this function may throw errors if the input is not a valid integer. How can this issue be addressed?
 
-9. Based on Professor Instructions, how should the output of both `i2b.c` and `i2h.c` files be printed without any spaces between the bits or digits?
+2. The variable `hex` has a fixed size of 9 characters, which might not be sufficient for all possible hexadecimal representations. What could be done to ensure that the output always fits within the allocated space?
 
-10. Make sure to edit the README.md file with your name at the top before submitting the assignment through GitHub Classroom.
+3. The code prints the hexadecimal representation with spaces between the digits, but according to the problem statement, there should be no spaces. How can this requirement be met?
+
+4. The expected output for a random input number (-28117) matches the actual output in terms of hexadecimal representation. However, the actual output is different from the expected one. What might be the reason, and how can it be corrected?
 
