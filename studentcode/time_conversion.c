@@ -16,6 +16,6 @@ int main(int argc, char* argv[]) {
   // Output the result
   printf("%d hours %d minutes\n", hours, minutes);
   
-  return 0;
+  return 1;
 }
 
